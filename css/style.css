@@ -1,0 +1,118 @@
+body{
+	font-family: 'Press Start 2P', cursive !important;
+	background: cornflowerblue;
+}
+
+#full-container {
+    background-color: cornflowerblue;
+	//height: 100%;
+	max-width: none;
+	//background: url("../img/background.jpg");
+}
+
+body{
+	min-width: 1520px;
+}
+
+#logo {
+	height:20vh;
+}
+
+#logo-text{
+	transform: rotate(357deg);
+    margin-top: -9px;
+}
+
+#first-row{
+	//height:70vh;
+	width:90vw;
+	margin-left:5vw;
+	flex-wrap: nowrap;
+}
+
+#difficulty-slider{
+	width:66.6%;
+}
+
+#difficulty-result{
+	font-size:0.8em;
+	margin: 20px 0 0 0;
+}
+
+.holocure-like-panel {
+    background: rgba(0,0,0,0.3);
+    padding: 1vw;
+    border: 15px solid white;
+    box-shadow: rgba(0,0,0,0.2) 6px 6px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+	min-width: 380px;
+}
+
+.panel-title{
+	font-size: 2em;
+}
+
+.panel-content{
+	height: 90%;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+	padding: 0;
+}
+.stat-img{
+	height: 45px;
+    width: auto !important;
+}
+
+.stat-modifier{
+	align-content: center;
+    display: inline-grid;
+    width: 50% !important;
+	text-align:left;
+	display: flex;
+}
+
+.settings-content {
+	align-content: space-evenly;
+    display: grid;
+}
+
+.settings-content>*{
+	justify-self: center;
+	width:100%;
+}
+
+.form-label{
+	text-align:left;
+	font-size:65%;
+}
+
+.settings-button {
+	width: 100% !important;
+}
+
+.challenge-button{
+	height: 100px;
+	font-size:0.8em;
+}
+
+.stat-point-img {
+	width: 20px;
+	height: 20px;
+	margin-left:3px;
+	align-self: center;
+}
+
+.panel-connection{
+	//height: 50%;
+    //border-bottom: 15px solid white;
+    //box-shadow: rgba(0,0,0,0.2) 6px 6px 0px 0px;
+}
+
+.explanation{
+	color: darkblue;
+    font-size: 0.7em;
+    margin: 3vh 0 0 0 !important;
+}
